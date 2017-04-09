@@ -1,0 +1,16 @@
+{
+  "name": "Test-Protractor-Book",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine-spec-reporter": "^3.2.0",
+    "protractor-jasmine2-html-reporter": "0.0.7"
+  }
+}
