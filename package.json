@@ -15,6 +15,10 @@
   }
 
  "scripts": {
-  "postinstall": "bower install && webdriver-manager update"
-}
+    "postinstall": "node_modules/protractor/bin/webdriver-manager update",
+    //"test": "node_modules/karma/bin/karma start webapp/test/unit/karma.conf.js"
+    "test:e2e": "node_modules/protractor/bin/protractor /conf.js"
+
+  }
+
 }
